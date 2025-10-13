@@ -1,9 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Card } from "/Users/Axioo Pongo/Documents/Sekolah/React Js/portofolio/components/Ui/card";
-import { AboutProps, Skill, Tool } from "@/types/portfolio";
-import DotGrid from "@/app/components/DotGrid/DotGrid";
+import { Card } from "./UI/Card";
+import { AboutProps, Skill, Tool } from "../types/portfolio";
 
 export default function About({
   title = "About Me",

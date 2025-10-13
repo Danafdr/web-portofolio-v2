@@ -2,7 +2,7 @@
 
 import { useLayoutEffect, useRef, useState } from "react";
 import TimelineItem from "../components/Timeline/TimelineItem";
-import { timelineData, TimelineItemType } from "@/types/timelineData";
+import { timelineData, TimelineItemType } from "../types/timelineData";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Timeline = () => {
