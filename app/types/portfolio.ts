@@ -33,7 +33,7 @@ export interface HeroProps {
 
 export interface AboutProps {
   title?: string;
-  description?: string;
+  description?: string | string[];
   skills?: Skill[];
   tools?: Tool[];
   colors?: {
