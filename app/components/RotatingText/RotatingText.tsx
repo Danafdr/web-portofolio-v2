@@ -13,7 +13,6 @@ import {
   Transition,
   type VariantLabels,
   type Target,
-  animationControls,
   type TargetAndTransition,
 } from "framer-motion";
 
@@ -35,9 +34,9 @@ export interface RotatingTextProps
   > {
   texts: string[];
   transition?: Transition;
-  initial?: boolean | Target | VariantLabels;
-  animate?: boolean | VariantLabels | typeof animationControls | TargetAndTransition;
-  exit?: Target | VariantLabels;
+  initial?: React.ComponentPropsWithoutRef<typeof motion.span>["initial"];
+  animate?: React.ComponentPropsWithoutRef<typeof motion.span>["animate"];
+  exit?: React.ComponentPropsWithoutRef<typeof motion.span>["exit"];
   animatePresenceMode?: "sync" | "wait";
   animatePresenceInitial?: boolean;
   rotationInterval?: number;
