@@ -37,7 +37,7 @@ export interface AboutProps {
   skills?: Skill[];
   tools?: Tool[];
   colors?: {
-    background: string;
+    background?: string;
     text: string;
     accent: string;
     border?: string;
