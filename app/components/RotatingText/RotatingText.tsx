@@ -13,7 +13,7 @@ import {
   Transition,
   type VariantLabels,
   type Target,
-  type AnimationControls,
+  animationControls,
   type TargetAndTransition,
 } from "framer-motion";
 
