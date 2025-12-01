@@ -72,5 +72,14 @@ export const timelineData: TimelineItemType[] = [
     description: "Participated in FLS3N as a Director, Cinematographer, and Editor",
     position: "top",
     color: "text-green-500",
+  },
+  {
+    id: 8,
+    Month: "June",
+    year: 2025,
+    title: "FLS3N",
+    description: "Participated in FLS3N as a Director, Cinematographer, and Editor",
+    position: "bottom",
+    color: "text-green-500",
   }
 ];
