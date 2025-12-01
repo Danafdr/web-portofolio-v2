@@ -40,6 +40,10 @@ export interface AboutProps {
     background: string;
     text: string;
     accent: string;
+    border?: string;
+    skillBg?: string;
+    skillFill?: string;
+    toolBg?: string;
   };
 }
 
