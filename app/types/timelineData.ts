@@ -66,20 +66,11 @@ export const timelineData: TimelineItemType[] = [
   },
   {
     id: 7,
-    Month: "March",
-    year: 2021,
-    title: "Company Milestone",
-    description: "Reached 1 million active users",
+    Month: "June",
+    year: 2025,
+    title: "FLS3N",
+    description: "Participated in FLS3N as a Director, Cinematographer, and Editor",
     position: "top",
     color: "text-green-500",
-  },
-  {
-    id: 8,
-    Month: "November",
-    year: 2022,
-    title: "Award Received",
-    description: "Won best design award for innovative UI",
-    position: "bottom",
-    color: "text-purple-500",
-  },
+  }
 ];
