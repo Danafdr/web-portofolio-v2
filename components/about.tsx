@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Card } from "./Ui/card";
-import { AboutProps, Skill, Tool } from "../types/portfolio";
+import { AboutProps, Skill, Tool } from "@/types/portfolio";
 
 export default function About({
   title = "About Me",
