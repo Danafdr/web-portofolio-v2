@@ -56,11 +56,17 @@ export default function About({
                 h-full
               `}>
                 <div className="space-y-3">
-                  {description.map((paragraph, index) => (
-                    <p key={index} className={`${colors.text} leading-relaxed opacity-90`}>
-                      {paragraph}
-                    </p>
-                  ))}
+                  {Array.isArray(description)
+                    ? description.map((paragraph, index) => (
+                        <p key={index} className={`${colors.text} leading-relaxed opacity-90`}>
+                          {paragraph}
+                        </p>
+                      ))
+                    : (
+                        <p className={`${colors.text} leading-relaxed opacity-90`}>
+                          {description}
+                        </p>
+                      )}
                 </div>
               </Card>
             </div>
