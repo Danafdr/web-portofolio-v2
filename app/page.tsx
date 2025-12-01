@@ -3,7 +3,7 @@ import Navigation from "./components/Navigation/navigation";
 import HomePage from "./Pages/Home";
 import AboutMe from "./Pages/About-Me";
 import Projects from "./Pages/Projects";
-import Timeline from "./Pages/Timeline"; // ✅ Corrected default import
+import Timeline from "./Pages/Timeline";
 
 export default function Home() {
   return (

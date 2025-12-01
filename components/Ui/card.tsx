@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { cn } from "/Users/Axioo Pongo/Documents/Sekolah/React Js/portofolio/lib/utils"
+import { cn } from "../../lib/utils"
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (

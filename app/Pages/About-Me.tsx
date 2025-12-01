@@ -78,7 +78,6 @@ export default function AboutMe() {
           duration={1000} 
           easing="ease-out" 
           initialOpacity={0}
-          onComplete={() => setIsAnimating(false)}
         >
           <AnimatedContent
             distance={100}

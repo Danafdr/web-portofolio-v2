@@ -49,7 +49,7 @@ export const timelineData: TimelineItemType[] = [
   {
     id: 5,
     Month: "November",
-    year: 2024,
+    year: 2025,
     title: "ASSA Project",
     description: "Collaborated on ASSA Project as a Motion Graphic",
     position: "top",
@@ -58,9 +58,9 @@ export const timelineData: TimelineItemType[] = [
   {
     id: 6,
     Month: "November",
-    year: 2020,
+    year: 2025,
     title: "Uzone",
-    description: "",
+    description: "Collaborated on Uzone as a Video Editor",
     position: "bottom",
     color: "text-orange-400",
   },

@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Card } from "./UI/Card";
+import { Card } from "./Ui/card";
 import { AboutProps, Skill, Tool } from "../types/portfolio";
 
 export default function About({
   title = "About Me",
   description = [
-    "Hi, I'm Danadirsha, but you can call me Dana — a passionate video editor and programmer currently studying at Stark Tahoma Jakarta. With over 4 years of experience in video editing and 3 years in programming, I specialize in creating dynamic visuals and intuitive digital experiences.",
+    "Hi, I'm Danadirsha, but you can call me Dana — a passionate video editor and programmer currently studying at SMK Telkom Jakarta. With over 4 years of experience in video editing and 3 years in programming, I specialize in creating dynamic visuals and intuitive digital experiences.",
     "I'm currently doing an internship as a programmer and video editor, where I collaborate on projects that require both creative and technical skills. I'm known for my ability to deliver high-quality work ahead of deadlines and tailor content to meet client needs.",
     "Whether it's a smooth transition in a modern graphic or a clean, functional piece of code, I enjoy bringing ideas to life through both visuals and logic."
   ],

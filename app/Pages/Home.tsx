@@ -4,7 +4,6 @@ import FadeContent from "../components/FadeContent/FadeContent";
 import SplitText from "../components/SplitText/SplitText";
 import RotatingText from "../components/RotatingText/RotatingText";
 import BlurText from "../components/BlurText/BlurText";
-import Beams from "../components/Beams/Beams";
 import ProfileCard from "../components/ProfileCard/ProfileCard";
 
 const handleAnimationComplete = () => {
@@ -16,16 +15,6 @@ export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#0A0A0A]">
       <div className="absolute top-0 right-0 left-0 bottom-0 w-full h-full">
-        <Beams
-          beamWidth={3}
-          beamHeight={25}
-          beamNumber={5}
-          lightColor="#ffffff"
-          speed={2}
-          noiseIntensity={1.50}
-          scale={0.2}
-          rotation={45}
-        />
       </div>
       <div className="container mx-auto h-screen">
         <div className="grid grid-cols-12">
